@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pedro Spinetta - CV Online</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       margin: 0;
@@ -72,11 +73,48 @@
         font-size: 2rem;
       }
     }
+
+    /* Estilos para el formulario */
+    .contact-form {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+      color: #eee;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #444;
+      border-radius: 4px;
+      background-color: #222;
+      color: #eee;
+    }
+
+    .contact-form button {
+      background-color: #00adb5;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .contact-form button:hover {
+      background-color: #019ca3;
+    }
   </style>
 </head>
 <body>
-<!-- Agregá esto en el <head> si no lo tenías -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <header>
   <div style="text-align: center;">
@@ -92,66 +130,87 @@
   </div>
 </header>
 
+<main>
+  <section>
+    <h2>📍 Información de contacto</h2>
+    <p>📞 Teléfono: No publicado por motivos de seguirdad. Cualquier consulta, realizarlas al email, porfavor.</p>
+    <p>📧 Email: contacto@spinetta.net</p>
+    <p>🌐 Sitio web: <a href="https://spinetta.net">spinetta.net</a></p>
+    <p>📍 Ubicación: San Miguel, Buenos Aires</p>
+  </section>
+  <p>🔗 Instagram: <a href="https://www.instagram.com/_spinetta.ok/" target="_blank">_spinetta.ok</a></p>
 
-  <main>
-    <section>
-      <h2>📍 Información de contacto</h2>
-      <p>📞 Teléfono: No publicado por motivos de seguirdad. Cualquier consulta, realizarlas al email, porfavor.</p>
-      <p>📧 Email: contacto@spinetta.net</p>
-      <p>🌐 Sitio web: <a href="https://spinetta.net">spinetta.net</a></p>
-      <p>📍 Ubicación: San Miguel, Buenos Aires</p>
-    </section><p>🔗 Instagram: <a href="https://www.instagram.com/_spinetta.ok/" target="_blank"> _spinetta.ok</a></p>
+  <section>
+    <h2>🧠 Perfil profesional</h2>
+    <p>
+      Persona tranquila y enfocada, con preferencia por trabajar de forma autónoma. 
+      Sin embargo, cuento con más de 3 años de experiencia en atención al cliente en una farmacia, 
+      lo que me ha permitido desarrollar habilidades sociales, empatía y carisma. 
+      Me adapto fácilmente al trabajo en equipo y sé desenvolverme con eficacia 
+      cuando el entorno lo requiere.
+    </p>
+  </section>
 
-    <section>
-  <h2>🧠 Perfil profesional</h2>
-  <p>
-    Persona tranquila y enfocada, con preferencia por trabajar de forma autónoma. 
-    Sin embargo, cuento con más de 3 años de experiencia en atención al cliente en una farmacia, 
-    lo que me ha permitido desarrollar habilidades sociales, empatía y carisma. 
-    Me adapto fácilmente al trabajo en equipo y sé desenvolverme con eficacia 
-    cuando el entorno lo requiere.
-  </p>
-</section>
+  <section>
+    <h2>🧰 Experiencia</h2>
+    <ul>
+      <li>Desempeñado como auxiliar en farmacia (2022 - actualidad)</li>
+      <li>Electricista domiciliario: ESBA 2024</li>
+    </ul>
+  </section>
 
-    <section>
-      <h2>🧰 Experiencia</h2>
-      <ul>
-        <li>Desempeñado como a uxiliar en farmacia: (2022 - actualidad)</li>
-        <li>Electricista domiciliario: ESBA 2024 </li>
-      </ul>
-    </section>
-  
+  <section>
+    <h2>📚 Formación</h2>
+    <ul>
+      <li>Universidad de Morón – Criminalística (2022 - 2024, no concretado)</li>
+      <li>UNPAZ – Programación y diseño de videojuegos (2024 - 2025)</li>
+      <li>Técnico en electricidad domiciliaria – ESBA San Miguel</li>
+    </ul>
+  </section>
 
-    <section>
-      <h2>📚 Formación</h2>
-      <ul>
-        <li>Universidad de Morón – Criminalística: 2022 - 2024 (no concretado)</li>
-        <li>UNPAZ – Programación y diseño de videojuegos (2024 - 2025)</li>
-        <li>Técnico en electricidad domiciliaria – ESBA San Miguel</li>
-      </ul>
-    </section>
+  <section>
+    <h2>🎯 Objetivo profesional</h2>
+    <p>Formar parte de proyectos energéticos o petroleros en el sur argentino, aportar mis conocimientos técnicos en electricidad y seguir capacitándome en campo.</p>
+  </section>
 
-    <section>
-      <h2>🎯 Objetivo profesional</h2>
-      <p>Formar parte de proyectos energéticos o petroleros en el sur argentino, aportar mis conocimientos técnicos en electricidad y seguir capacitándome en campo.</p>
-    </section>
+  <section>
+    <h2>🔧 Habilidades</h2>
+    <ul>
+      <li>Instalaciones eléctricas domiciliarias</li>
+      <li>Montaje de tableros, cableado, iluminación</li>
+      <li>Manejo de tester, herramientas eléctricas y manuales</li>
+      <li>Predisposición para relocalización y turnos rotativos</li>
+      <li>Conocimiento de conducción (sin licencia aún)</li>
+      <li>Manejo de paquete Office</li>
+      <li>Manejo de computadora</li>
+    </ul>
+  </section>
 
-    <section>
-      <h2>🔧 Habilidades</h2>
-      <ul>
-        <li>Instalaciones eléctricas domiciliarias</li>
-        <li>Montaje de tableros, cableado, iluminación</li>
-        <li>Manejo de tester, herramientas eléctricas y manuales</li>
-        <li>Predisposición para relocalización y turnos rotativos</li>
-        <li>Conocimiento de conducción (sin licencia aún)</li>
-        <li>Manejo de paquete Office </li>
-        <li>Manejo de computadora</li>
-        
-      </ul>
-    </section>
-  </main>
-  <footer>
-    © 2025 Pedro Spinetta | spinetta.net
-  </footer>
+  <!-- FORMULARIO DE CONTACTO -->
+  <section>
+    <h2>✉️ Contactame</h2>
+    <form action="https://formsubmit.co/contacto@spinetta.net" method="POST" class="contact-form">
+      <label for="nombre">Nombre (requerido)</label>
+      <input type="text" name="nombre" id="nombre" required>
+
+      <label for="email">Email (requerido)</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="asunto">Asunto</label>
+      <input type="text" name="asunto" id="asunto">
+
+      <label for="mensaje">Mensaje (requerido)</label>
+      <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+
+      <input type="hidden" name="_captcha" value="false">
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  © 2025 Pedro Spinetta | spinetta.net
+</footer>
+
 </body>
 </html>
